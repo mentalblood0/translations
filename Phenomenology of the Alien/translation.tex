@@ -1,0 +1,33 @@
+\documentclass[12pt]{book}
+
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{tcolorbox}
+\usepackage{polyglossia}
+\setdefaultlanguage[indentfirst=false,forceheadingpunctuation=false]{russian}
+\setotherlanguages{english}
+
+\RequirePackage[a4paper, headsep = 0.5 \headsep, left=2.5cm, right=2.1cm, top=2cm, bottom=2.1cm]{geometry}
+
+\setmainfont{URW Bookman}
+\newfontfamily\cyrillicfont{URW Bookman}[Script=Cyrillic, Ligatures=TeX]
+\setlength{\parindent}{20pt}
+
+\usepackage{enumitem}
+\setlist[itemize, 1]{label =\raisebox{-0.3\height}{\scalebox{1.8}{\textbullet}}}
+
+\title{Феноменология чуждого}
+\author{Бернхард Вальденфельс}
+\date{2006}
+\begin{document}
+
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth]{title.png}}
+
+\null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage
+
+\tableofcontents
+
+\end{document}
