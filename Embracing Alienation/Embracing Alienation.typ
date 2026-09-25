@@ -65,6 +65,8 @@
   paper-size: "a5"
 )
 
+#set par(first-line-indent: 1.5em)
+
 = Беспокойный субъект
 
 == Продажная идентичность
