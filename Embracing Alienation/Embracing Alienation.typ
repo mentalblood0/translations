@@ -4,7 +4,7 @@
 #set quote(block: true)
 
 #show: ilm.with(
-  title: [Принимая отчужденность],
+  title: [Принимая Отчужденность],
   authors: "Тодд МакГоун",
   date: datetime(year: 2019, month: 01, day: 01),
   date-format: "[year repr:full]",
